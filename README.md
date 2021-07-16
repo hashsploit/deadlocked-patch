@@ -1,17 +1,19 @@
-# deadlocked-patch
+# uya-patch
 
-Patches applied to all Deadlocked PS2 clients connecting to the Deadlocked custom server.
+Patches applied to all Ratchet & Clank Up Your Arsenal PS2 clients connecting to [Clank](https://github.com/hashsploit/clank).
+
+Based on [deadlocked-patch](https://github.com/Dnawrkshp/deadlocked-patch) by [Dnawrkshp](https://github.com/Dnawrkshp).
 
 ## Build
 
 You'll need a local copy of the [PS2SDK](https://github.com/ps2dev/ps2sdk). I recommend using docker. Instructions for how to build using docker are below.
 
-If you are using a local copy, make sure you install [libdl](https://github.com/Dnawrkshp/libdl) first.
+If you are using a local copy, make sure you install [libuya](https://github.com/hashsploit/libuya) first.
 
 Clone the repo and enter it:
 ```sh
-git clone https://github.com/Dnawrkshp/deadlocked-patch.git
-cd deadlocked-patch
+git clone https://github.com/hashsploit/uya-patch.git
+cd uya-patch
 ```
 
 If you want to use docker, run the following commands:
